@@ -46,7 +46,7 @@ using UnityEngine.XR.ARSubsystems;
 
         void Awake()
         {
-                    planeManager = GetComponent<ARPlaneManager>();
+            planeManager = GetComponent<ARPlaneManager>();
 
             isModelPlace = false;
             m_RaycastManager = GetComponent<ARRaycastManager>();
@@ -115,14 +115,20 @@ using UnityEngine.XR.ARSubsystems;
             plane.gameObject.SetActive(status);
         }
     }
-void showButton(){
-        rulButton.gameObject.SetActive(true);
-        sensorButton.gameObject.SetActive(true);
-}
-
-public void toogleTurbo(){
-    showSensor = !showSensor;
-    spawnedObject.transform.GetChild(1).gameObject.SetActive(showSensor);
-}
-
+    void showButton(){
+            rulButton.gameObject.SetActive(true);
+            sensorButton.gameObject.SetActive(true);
     }
+
+    public void toogleTurbo(){
+        showSensor = !showSensor;
+        spawnedObject.transform.GetChild(1).gameObject.SetActive(showSensor);
+    }
+
+    public void setRUL(){
+
+    TextMesh t = (TextMesh)spawnedObject.transform.GetChild(2).gameObject.GetComponent(typeof(TextMesh));
+
+    t.text = "75 Cycles";
+    }   
+}

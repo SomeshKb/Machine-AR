@@ -1000,7 +1000,6 @@ GameObject:
   - component: {fileID: 1219980868}
   - component: {fileID: 1219980869}
   - component: {fileID: 1219980870}
-  - component: {fileID: 1219980871}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -1144,19 +1143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f69add980f056947b068ed3d0fb25c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1219980871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219980860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f2dad50f0987b408156118f1b7c9a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rultext: {fileID: 625844906}
 --- !u!1 &1691460741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,9 +1332,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1219980871}
-        m_TargetAssemblyTypeName: GetRul, Assembly-CSharp
-        m_MethodName: rulCalculate
+      - m_Target: {fileID: 1219980868}
+        m_TargetAssemblyTypeName: PlaceOnPlane, Assembly-CSharp
+        m_MethodName: setRUL
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -772,6 +772,7 @@ Transform:
   m_Children:
   - {fileID: 8682301128402204948}
   - {fileID: 4131196268383113903}
+  - {fileID: 3075524633296582979}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
@@ -3165,6 +3166,103 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8818983567667683874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3075524633296582979}
+  - component: {fileID: 1264984102441850807}
+  - component: {fileID: 1246836647735383320}
+  m_Layer: 0
+  m_Name: rul
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3075524633296582979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818983567667683874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: -0.0107, y: 0.0177, z: -0.0161}
+  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2201409087970084910}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1264984102441850807
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818983567667683874}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!102 &1246836647735383320
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818983567667683874}
+  m_Text: 
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 1
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278215423
 --- !u!1 &8835525811121100213
 GameObject:
   m_ObjectHideFlags: 0
@@ -3287,6 +3385,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2201409087970084910}
     m_Modifications:
+    - target: {fileID: 259175026557796349, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 784400571003294185, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: "Total temperature at fan inlet (\xB0R) : 516.67"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657320583009728224, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.53
+      objectReference: {fileID: 0}
     - target: {fileID: 2190061337954543447, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3331,6 +3441,74 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2294028150234914543, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294028150234914543, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858329755983452, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.646
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858329755983453, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: "Total temperature at LPT outlet (\xB0R):1427.2"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330200344124, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330200344125, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: Ratio of fuel flow to Ps30 (pps/psi):520.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330446670031, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: Engine pressure ratio:1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330489802091, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: Pressure at fan inlet (psia):14.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330619290275, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: Physical fan speed (rpm):2388.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330672208203, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330672208204, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: "Total temperature at LPC outlet (\xB0R):643.54"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330745873226, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330745873227, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: Static pressure at HPC outlet (psia):48.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330751228017, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: "Total temperature at HPC outlet (\xB0R):1601.41"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858330767985077, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: Total pressure at HPC outlet (psia):551.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858331327577012, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: Total pressure in bypass-duct (psia):21.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823858331811390100, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_Text
+      value: Physical core speed (rpm):9033.22
+      objectReference: {fileID: 0}
     - target: {fileID: 4847656543771156675, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
       propertyPath: m_Name
       value: sensor
@@ -3339,8 +3517,41 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6713700220859149273, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797443692230290631, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.69
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+--- !u!1 &1247451439278112649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3927009447431719537, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+  m_PrefabInstance: {fileID: 2823858331070625272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3301873108461167663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 784400571003294167, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
+  m_PrefabInstance: {fileID: 2823858331070625272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4113328206718532376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3301873108461167663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b653cb67623814aa66468119dec89b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphere: {fileID: 1247451439278112649}
+  timer: 0
+  onoff: 0
 --- !u!4 &4131196268383113903 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2190061337954543447, guid: ab83d6a894fa0374895b1cf15a8f48cd, type: 3}
