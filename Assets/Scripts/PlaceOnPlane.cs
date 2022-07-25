@@ -23,10 +23,13 @@ using UnityEngine.XR.ARSubsystems;
 
     bool isModelPlace ;
 
+    bool showSensor = false;
+
     [SerializeField]
     GameObject visualObject;
 
     public GameObject rulButton;
+    public GameObject sensorButton;
     /// <summary>
     /// The prefab to instantiate on touch.
     /// </summary>
@@ -44,8 +47,6 @@ using UnityEngine.XR.ARSubsystems;
         void Awake()
         {
                     planeManager = GetComponent<ARPlaneManager>();
-
-                    Debug.Log(planeManager);
 
             isModelPlace = false;
             m_RaycastManager = GetComponent<ARRaycastManager>();
@@ -116,7 +117,12 @@ using UnityEngine.XR.ARSubsystems;
     }
 void showButton(){
         rulButton.gameObject.SetActive(true);
+        sensorButton.gameObject.SetActive(true);
 }
 
+public void toogleTurbo(){
+    showSensor = !showSensor;
+    spawnedObject.transform.GetChild(1).gameObject.SetActive(showSensor);
+}
 
     }
